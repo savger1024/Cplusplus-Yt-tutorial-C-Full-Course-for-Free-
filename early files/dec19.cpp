@@ -7,6 +7,12 @@ using std::cin;
 void printInfo(std::string name, int age);
 
 int main() {
+
+    for (int i = 900; i < 1000; i++) {
+        if (i % 10) continue;
+        if (i == 950) {cout << i; break; }
+    }
+
     cout << "hi";
     //.toupper(guess);
 
